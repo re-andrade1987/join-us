@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    color: black;
+    margin: 20px;
+    list-style: none;
+    text-decoration: none;
+    flex-direction: row;
+}
+.header a{
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: Open sans-serif;
+    Font-Size: 12px;
+    Line-Height: 20px; 
+}
+.lista{
+    display: flex;
+    justify-content: center;
+}
+.lista ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: -67px;
+}
+.lista ul li{
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    font-size: 14px;
+    font-family: Gotham Book;
+    justify-content: center;
+}
