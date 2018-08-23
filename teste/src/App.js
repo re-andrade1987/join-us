@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from './Componentes/Navbar/Nav';
 import Header from './Componentes/Header/Header';
-import Input from './Componentes/Input/Input';
+import Main from './Componentes/Main/Main';
+
 
 import './App.css';
 
@@ -12,7 +13,7 @@ class App extends React.Component {
       <div className="App">
       <Navbar />
       <Header />
-      <Input />
+      <Main />
       </div>
     );
   }

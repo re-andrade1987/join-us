@@ -1,0 +1,19 @@
+
+.compras{
+    display: flex;
+    flex-direction: row;
+    height: 533px;
+
+}
+#carouselExampleControls{
+    display: flex;
+    flex-direction: column;
+}
+.carousel-inner{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.secaodecompra{
+    border: solid 2px;
+}

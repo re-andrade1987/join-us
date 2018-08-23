@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import busca from './busca.png'
 
 
 function Header(props) {
@@ -17,6 +18,10 @@ function Header(props) {
                         <li>ACESSÓRIOS</li>
                         <li>OFF</li>
                     </ul>
+                </div>
+                <div className="input1">
+                    <img src={busca} alt="lupa de busca" />
+                    <label><input type="text"></input>Busca</label>
                 </div>
             </div>
         </section>

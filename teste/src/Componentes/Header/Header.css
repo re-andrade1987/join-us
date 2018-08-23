@@ -5,6 +5,7 @@
     list-style: none;
     text-decoration: none;
     flex-direction: row;
+    border: solid 2px;
 }
 .header a{
     list-style: none;
@@ -32,4 +33,15 @@
     font-size: 14px;
     font-family: Gotham Book;
     justify-content: center;
+}
+.input1{
+    display: flex;
+    justify-content: flex-end;
+    color:black;
+    margin-top: -55px;
+    Font-size: 12px;
+    font-family: Open sans-serif;   
+}
+.input1 label{
+    margin-right: 30px;
 }
