@@ -1,19 +1,37 @@
 
 .compras{
     display: flex;
-    flex-direction: row;
     height: 533px;
-
+    justify-content: space-between;
+    
 }
-#carouselExampleControls{
+.container{
     display: flex;
     flex-direction: column;
 }
-.carousel-inner{
+#carousel{
     display: flex;
     flex-direction: column;
     margin: 40px;
+   
 }
 .secaodecompra{
     border: solid 2px;
+    margin-top: 40px;
+    margin-right: 40px;
+    width: 444px;
+    height: 533px;
+      
+}
+.carousel-control-prev {
+    left: 100px;
+}
+
+.carousel-control-next {
+    right: 100px;
+}
+.compras2 h1{
+ font-size: 26px;
+ color: #DE8F75;
+ font-family: Gotham Book;
 }
